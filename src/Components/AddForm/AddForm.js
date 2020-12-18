@@ -19,7 +19,7 @@ export default class AddForm extends Component {
         <form onSubmit={(e) => this.handleSubmit(e)}>
           <input className="name-input" name="name"></input>
           <button className="btn" type="submit">
-            Add to Line
+          It's your turn to adopt! You have 5 minutes to choose an animal to adopt.
           </button>
         </form>
       </div>

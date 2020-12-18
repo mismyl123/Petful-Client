@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PetList from '../../Components/PetList/PetList';
-import People from '../../components/People/People';
+import People from '../../Components/People/People';
 import PetfulApiService from '../../services/petful-api';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';

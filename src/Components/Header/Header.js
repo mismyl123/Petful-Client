@@ -1,13 +1,23 @@
-import React from 'react'
-import './Header.css'
-import Button from '../Button/Button'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaw } from '@fortawesome/free-solid-svg-icons' 
 
-export default function Header(props) {
-  return (
-    <header className="header">
-      <h1>Welcome to Adopt An Animal!</h1>
-      <p className="about">Click the button below to get in line to adopt one of these precious animals! Once you enter the queue, you will be notified when it's your turn to select your pet.</p>
-      <Button text='Start adoping' handleClick={props.handleClick} />
-    </header>
-  )
+export default class Header extends Component {
+  render() {
+    return (
+      <div className="Header">
+        <h1 className="nav-header">
+          <Link to="/">Adopt a Pet Today!!</Link>
+          <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
+        </h1>
+        <nav>
+          <Link to="/adoption" className="adopt-link">
+          <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
+            Adopt
+          </Link>
+        </nav>
+      </div>
+    );
+  }
 }
