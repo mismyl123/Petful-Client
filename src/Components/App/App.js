@@ -2,10 +2,10 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import axios from 'axios'
-import Nav from '../Nav/Nav'
+import Nav from '../PetList/Nav'
 import './App.css'
-import HomePage from '../HomePage/HomePage'
-import LandingPage from '../LandingPage/LandingPage'
+import HomePage from '../People/HomePage'
+import LandingPage from '../Pet/LandingPage'
 
 class App extends Component {
   state = {

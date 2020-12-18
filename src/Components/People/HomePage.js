@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import AnimalInfo from '../AnimalInfo/AnimalInfo';
+import AnimalInfo from '../AddForm/AddForm';
 import Button from '../Button/Button';
 import './HomePage.css'
 
