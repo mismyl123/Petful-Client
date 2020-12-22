@@ -1,8 +1,23 @@
 # Petful Client
 
+---------------------------------------------------------------------------------
 
-Petful - Client
-Introduction
+## Collaborators:
+Zeid Diez,
+Michelle LaLonde,
+Marcus Ridley
+
+---------------------------------------------------------------------------------
+
+### Live Demo:
+
+### Server Repo:
+
+### Client Repo:
+
+---------------------------------------------------------------------------------
+
+## About:
 
 Petful simulates a web application for pet adoption. The application maintains two queues: one for available dogs and another for available cats. The application will simulate pet adoption by scrolling through cats and dogs; making each pet available for adoption when the queue reaches the designated user (thinkful)
 Live Link
