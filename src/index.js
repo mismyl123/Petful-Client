@@ -5,7 +5,7 @@ import './index.css';
 import App from './Components/App/App';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <React.StrictMode>
     <App />
-  </BrowserRouter>, 
+  </React.StrictMode>,
 document.getElementById('root'));
