@@ -4,6 +4,8 @@ import People from '../../components/People/People';
 import PetfulApiService from '../../services/petful-api';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaw } from '@fortawesome/free-solid-svg-icons' 
 
 export default class Adoption extends Component {
   constructor(props) {
@@ -148,7 +150,11 @@ export default class Adoption extends Component {
   render() {
     return (
       <div className="adoption-container">
-        <h1>Adoption</h1>
+        <h1>
+        <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
+        Our Pets!!
+        <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
+        </h1>
         <PetList
           toggleAdopt={this.toggleAdopt}
           getNextCat={this.getNextCat}

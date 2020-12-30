@@ -8,6 +8,7 @@ export default class Header extends Component {
     return (
       <div className="Header">
         <h1 className="nav-header">
+          <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
           <Link to="/">Adopt a Pet Today!!</Link>
           <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
         </h1>
@@ -15,6 +16,8 @@ export default class Header extends Component {
           <Link to="/adoption" className="adopt-link">
           <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
             Adopt Now!
+          <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
+
           </Link>
         </nav>
       </div>
