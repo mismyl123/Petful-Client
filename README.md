@@ -1,5 +1,5 @@
 # Petful Client
-test
+
 
 ---------------------------------------------------------------------------------
 
@@ -31,12 +31,20 @@ The adoption process works strictly on a "First-In, First-Out" basis. The FIFO i
 Server Repo
 
 
-Core Technologies
+## Technologies Used
 
-    React
-    JavaScript
-    HTML5/CSS3
-    JSX
+### FrontEnd
+
+   * JavaScript
+   * React
+   * React-Router
+
+### Backend
+
+   * NodeJs
+   * Express
+   * Knex
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
