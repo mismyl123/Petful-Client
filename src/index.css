@@ -20,6 +20,7 @@ html {
 
 h1 {
   font-size: 3rem;
+  color: #800080;
 }
 
 /* header */
@@ -57,7 +58,7 @@ h1 {
 
 .adoption-container h1, .adoption-container h2 {
   text-align: center;
-  color: #efefef;
+  color: #800080;
 }
 
 .adoption-container .pet-details-container h2 {
@@ -94,7 +95,7 @@ h1 {
 .people-container li {
   list-style: none;
   padding: 0.25rem;
-  color: #efefef;
+  color: #800080;
   font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: bold;
@@ -179,7 +180,7 @@ h1 {
 
 /* home */
 h1.welcome {
-  color: #efefef;
+  color: #800080;
 }
 .Homepage {
   position: relative;
