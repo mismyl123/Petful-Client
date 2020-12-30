@@ -8,7 +8,7 @@ export default class People extends Component {
   render() {
     return (
       <div className="people-container">
-        <h1>People waiting to Adopt:</h1>
+        <h1>Add Your Name to the Adoption Queue:</h1>
         <ul>{this.renderLine()} </ul>
         {!this.props.inLine && (
           <AddForm
