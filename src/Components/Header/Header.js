@@ -14,7 +14,7 @@ export default class Header extends Component {
         <nav>
           <Link to="/adoption" className="adopt-link">
           <FontAwesomeIcon icon={faPaw} className="paw icon" color="black"/>
-            Adopt
+            Adopt Now!
           </Link>
         </nav>
       </div>

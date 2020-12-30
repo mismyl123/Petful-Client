@@ -139,7 +139,7 @@ export default class Adoption extends Component {
     return (
       <div>
         {this.state.adopt === true && (
-          <h2>You're up! Time to choose your new best friend!</h2>
+          <h2>It's your turn to adopt right now!!</h2>
         )}
       </div>
     );
@@ -178,14 +178,14 @@ export default class Adoption extends Component {
             <Modal.Header>
               <Modal.Title>Congratulations!</Modal.Title>
             </Modal.Header>
-            <Modal.Body>You just adopted a friend!</Modal.Body>
+            <Modal.Body>Have a Happy Life with Your New Friend:)</Modal.Body>
             <Modal.Footer>
               <Button
                 className="btn"
                 variant="primary"
                 onClick={this.handleClose}
               >
-                Thanks!
+                Thank You for Adopting!
               </Button>
             </Modal.Footer>
           </Modal>

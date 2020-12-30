@@ -5,7 +5,7 @@ import Pet from '../Pet/Pet';
 export default class PetList extends Component {
  
   renderError = () => {
-    return <h1>No more pets!</h1>;
+    return <h1>Shelter is Empty!</h1>;
   };
 
   render() {

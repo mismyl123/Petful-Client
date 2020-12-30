@@ -8,16 +8,16 @@ export default class Hompage extends Component {
         <div className="page-container">
           <h1 className="welcome">Welcome to Petful Adoption Service</h1>
           <div className="process-container">
-            <h2>How the Process Works:</h2>
+            <h2>How the Adoption Process Works:</h2>
             <p>
-              In order to adopt one of our adorable pets your name must be added
-              to the list of those looking to adopt. Please keep in mind, while
-              you can view all our furry friends, only those up for immediate
-              adoption will be available. We are a fair Adoption service that
-              believe all pets should be given the chance for a loving home
+            We operate on a First in First out basis.
+            We believe all pets should be loved and treasured equally.
+            Cat person or dog person we don't care, our only rule is 
+            that you wait your turn and adopt the next available pet of 
+            your preference.
             </p>
             <h3>
-              Interested in bringing home a new family member? 
+              Bring home your best fried TODAY!! 
               <br />
               Click{' '}
               <Link className="adopt" to="/adoption">
