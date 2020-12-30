@@ -1,3 +1,3 @@
 export default {
-  API_ENDPOINT: '',
+  API_ENDPOINT: 'https://infinite-basin-55622.herokuapp.com',
 }
