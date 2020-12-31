@@ -61,15 +61,10 @@ Server Repo
 
 <img width="888" alt="yourturn" src="https://user-images.githubusercontent.com/65927092/103390203-2d1e7580-4ae1-11eb-86da-4f97b5bdb53c.png">
 
-
-
-
-
-
-
-
 ---------------------------------------------------------------------------------
 ### Pop-up
+
+<img width="682" alt="popup" src="https://user-images.githubusercontent.com/65927092/103390226-54754280-4ae1-11eb-8b59-33a48e860e7d.png">
 
 ---------------------------------------------------------------------------------
 
