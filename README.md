@@ -14,7 +14,7 @@ Dariss Harris
 
 ### Server Repo: https://github.com/mismyl123/Petful-Server
 
-### Client Repo: https://github.com/mismyl123/Petful-Client
+### Client Repo:https://github.com/mismyl123/Petful-Client
 ---------------------------------------------------------------------------------
 
 ## About:
@@ -42,7 +42,14 @@ Server Repo
    * NodeJs
    * Express
    * Knex
+---------------------------------------------------------------------------------
+### Homepage
 
+---------------------------------------------------------------------------------
+### Landing Page
+
+---------------------------------------------------------------------------------
+### Pop-up
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
