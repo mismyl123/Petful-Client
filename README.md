@@ -14,7 +14,7 @@ Dariss Harris
 
 ### Server Repo: https://github.com/mismyl123/Petful-Server
 
-### Client Repo:https://github.com/mismyl123/Petful-Client
+### Client Repo: https://github.com/mismyl123/Petful-Client
 ---------------------------------------------------------------------------------
 
 ## About:
